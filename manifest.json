@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Automated Checksum Verification",
+  "description": "No description yet",
+  "version": "1.0",
+  "permissions": [
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  }
+}
