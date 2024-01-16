@@ -4,7 +4,11 @@
   "description": "No description yet",
   "version": "1.0",
   "permissions": [
-    "downloads"
+    "alarms",
+    "downloads",
+    "tabs",
+    "downloads.open",
+    "activeTab"
   ],
   "action": {
     "default_popup": "popup/popup.html"
